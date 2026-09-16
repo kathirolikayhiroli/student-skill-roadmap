@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Career Quest - Skill Roadmap</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="hero">
+            <div class="logo">🎓</div>
+            <h1>Career Quest</h1>
+            <p>Build Your Future • One Skill at a Time</p>
+        </header>
+
+        <!-- Input Card -->
+        <section class="input-card">
+
+            <h2>🚀 Start Your Career Journey</h2>
+            <p class="subtitle">
+                Discover the skills you need and create your personalized roadmap.
+            </p>
+
+            <div class="form-group">
+                <label>👤 Student Name</label>
+                <input
+                    type="text"
+                    id="studentName"
+                    placeholder="Enter your name"
+                >
+            </div>
+
+            <div class="form-group">
+                <label>🎯 Choose Your Career</label>
+
+                <select id="career">
+                    <option value="">-- Select Your Career --</option>
+                    <option value="web">💻 Web Developer</option>
+                    <option value="java">☕ Java Developer</option>
+                    <option value="data">📊 Data Analyst</option>
+                    <option value="ai">🤖 AI / ML Developer</option>
+                </select>
+            </div>
+
+            <button onclick="generateRoadmap()">
+                Generate My Roadmap 🚀
+            </button>
+
+        </section>
+
+        <!-- Result -->
+        <section id="result"></section>
+
+        <!-- Footer -->
+        <footer>
+            <p>🎓 Career Quest | Student Skill Roadmap Generator</p>
+            <p>Learn • Build • Grow • Succeed 🚀</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
